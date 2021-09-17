@@ -31,10 +31,6 @@ body{
     font-size: 1.1em;
     margin: 20px;
 }
-.paragraph {
-}
-.cont_button {
-}
 button{
     font-size: 17px;
     padding: 15px 20px;
@@ -45,8 +41,6 @@ button{
 .content {
     grid-area: content;
     text-align: center;
-}
-.cont_content {
 }
 .contenttitle {
     padding-top: 60px;
@@ -70,8 +64,6 @@ button{
     background-color: black;
     padding: 30px 200px;
 }
-.firstblock {
-}
 .imgcont1 {
     display: block;
     width: 100%;
@@ -90,8 +82,6 @@ button{
     margin: 0;
     padding: 30px 20px;
 }
-.secondblock {
-}
 .imgcont2 {
     display: block;
     width: 100%;
@@ -106,9 +96,6 @@ button{
 .secondblockp {
     margin: 0;
     padding: 30px 20px;
-
-}
-.thirdblock {
 }
 .imgcont3 {
     display: block;
@@ -124,14 +111,6 @@ button{
 .thirdblockp {
     margin: 0;
     padding: 30px 20px;
-}
-.cont_3rdcontent {
-}
-.contenttitle2 {
-    padding: auto;
-    margin: auto;
-}
-.contentp2 {
 }
 .footer {
     grid-area: footer;
@@ -150,8 +129,6 @@ button{
     padding-top: 100px;
     padding-bottom: 80px;
 }
-.contacthead {
-}
 .contactp {
     margin: 50px;
 }
@@ -161,8 +138,6 @@ button{
     width: 100%;
     padding-top: 100px;
     padding-bottom: 80px;
-}
-.abouthead {
 }
 .aboutp {
     margin: 50px;
@@ -175,8 +150,6 @@ button{
     display: flex;
     align-items: center;
 }
-.solhead {
-}
 .byblock {
     grid-area: byblock;
     background-color: black;
@@ -185,5 +158,40 @@ button{
     display: flex;
     align-items: center;
 }
-.byhead {
+
+@media screen and (max-width:700px){
+    *{
+        
+
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header {
+        width:100%;
+    }
+    .cont_table {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .cont_header {
+        align-content: space-around;
+        padding-top: 100px;
+    }
+    .cont_2ndtable{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont_pcontent {
+        column-count: 1;
+    }
+    .solblock {
+        padding: 10px;
+    }
+    .byblock {
+        padding: 10px;
+    }
 }
