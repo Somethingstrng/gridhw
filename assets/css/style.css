@@ -184,14 +184,16 @@ button{
     .cont_2ndtable{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .cont_pcontent {
         column-count: 1;
     }
     .solblock {
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .byblock {
-        padding: 10px;
+        padding-bottom: 10px;
     }
 }
